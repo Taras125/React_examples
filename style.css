@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(99, 126, 129);
+}
+.app {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.card.marked{
+  border: 2px solid crimson;
+}
+.card-img {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.card img {
+  width: 100%;
+}
